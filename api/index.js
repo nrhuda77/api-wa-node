@@ -29,3 +29,4 @@ app.post('/api', (req, res) => {
 app.listen(port, () =>{
     console.log(`This running on port ${port}`);
 });
+module.exports = app;
